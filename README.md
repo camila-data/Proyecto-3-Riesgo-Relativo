@@ -10,7 +10,7 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 # Proyecto 3: Riesgo Relativo
 
 ## Tabla de Contenidos
-1. Insumos
+1. [Insumos](1_Insumos.md)
 2. Procesamiento y Preparación de Base de Datos
    - [Conectar/Importar Datos a Herramientas](2_1_Conectar_Importar_Datos.md)
    - [Identificar y Manejar Valores Nulos](2_2_Identificar_Manejar_Valores_Nulos.md)
