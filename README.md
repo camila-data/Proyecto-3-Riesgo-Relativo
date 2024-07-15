@@ -5,7 +5,7 @@ En el dinámico entorno financiero actual, la reducción de las tasas de interé
 ## Solución Propuesta: Automatización Inteligente
 
 Para abordar este desafío, proponemos una solución innovadora: automatizar el proceso de análisis de crédito utilizando avanzadas técnicas de análisis de datos. Nuestro objetivo es mejorar la eficiencia y precisión en la evaluación del riesgo crediticio, permitiendo al banco tomar decisiones más informadas y reducir el riesgo de préstamos no reembolsables.
-# Proyecto 3: Riesgo Relativo
+
 
 # Proyecto 3: Riesgo Relativo
 
@@ -34,67 +34,4 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 6. Presentación de Resultados
 7. Conclusiones
 
-## Insumos
-Aquí puedes poner el contenido de la sección "Insumos"...
 
-## Procesamiento y Preparación de Base de Datos
-### Conectar/Importar Datos a Herramientas
-Aquí puedes poner el contenido del archivo `2_1_Conectar_Importar_Datos.md`...
-
-### Identificar y Manejar Valores Nulos
-Aquí puedes poner el contenido del archivo `2_2_Identificar_Manejar_Valores_Nulos.md`...
-
-### Identificar y Manejar Valores Duplicados
-Aquí puedes poner el contenido del archivo `2_3_Identificar_Manejar_Valores_Duplicados.md`...
-
-### Identificar y Manejar Datos Inconsistentes en Variables Categóricas
-Aquí puedes poner el contenido del archivo `2_4_Identificar_Manejar_Datos_Inconsistentes.md`...
-
-### Identificar y Manejar Datos Discrepantes en Variables Numéricas
-Aquí puedes poner el contenido del archivo `2_5_Identificar_Manejar_Datos_Discrepantes.md`...
-
-### Comprobar y Cambiar Tipo de Dato
-Aquí puedes poner el contenido del archivo `2_6_Comprobar_Cambiar_Tipo_Dato.md`...
-
-### Crear Nuevas Variables
-Aquí puedes poner el contenido del archivo `2_7_Crear_Nuevas_Variables.md`...
-
-### Unir Tablas
-Aquí puedes poner el contenido del archivo `2_8_Unir_Tablas.md`...
-
-### Construir Tablas Auxiliares
-Aquí puedes poner el contenido del archivo `2_9_Construir_Tablas_Auxiliares.md`...
-
-## Análisis Exploratorio
-### Agrupar Datos Según Variables Categóricas
-Aquí puedes poner el contenido del archivo `3_1_Agrupar_Datos.md`...
-
-### Visualizar las Variables Categóricas
-Aquí puedes poner el contenido del archivo `3_2_Visualizar_Variables_Categoricas.md`...
-
-### Aplicar Medidas de Tendencia Central
-Aquí puedes poner el contenido del archivo `3_3_Aplicar_Medidas_Tendencia_Central.md`...
-
-### Visualizar Distribución Utilizando Histograma o Boxplot
-Aquí puedes poner el contenido del archivo `3_4_Visualizar_Distribucion.md`...
-
-### Aplicar Medidas de Dispersión
-Aquí puedes poner el contenido del archivo `3_5_Aplicar_Medidas_Dispersion.md`...
-
-### Calcular Cuartiles, Deciles o Percentiles
-Aquí puedes poner el contenido del archivo `3_6_Calcular_Cuartiles.md`...
-
-### Calcular Correlación entre las Variables Numéricas
-Aquí puedes poner el contenido del archivo `3_7_Calcular_Correlacion.md`...
-
-## Aplicar Técnica de Análisis
-Aquí puedes poner el contenido de la sección "Aplicar Técnica de Análisis"...
-
-## Dashboard
-Aquí puedes poner el contenido de la sección "Dashboard"...
-
-## Presentación de Resultados
-Aquí puedes poner el contenido de la sección "Presentación de Resultados"...
-
-## Conclusiones
-Aquí puedes poner el contenido de la sección "Conclusiones"...
