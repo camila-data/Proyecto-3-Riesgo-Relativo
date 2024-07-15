@@ -5,95 +5,29 @@ En el dinámico entorno financiero actual, la reducción de las tasas de interé
 ## Solución Propuesta: Automatización Inteligente
 
 Para abordar este desafío, proponemos una solución innovadora: automatizar el proceso de análisis de crédito utilizando avanzadas técnicas de análisis de datos. Nuestro objetivo es mejorar la eficiencia y precisión en la evaluación del riesgo crediticio, permitiendo al banco tomar decisiones más informadas y reducir el riesgo de préstamos no reembolsables.
-
+# Proyecto 3: Riesgo Relativo
 
 ## Tabla de Contenidos
-1. [Insumos](#insumos)
-2. [Procesamiento y Preparación de Base de Datos](#procesamiento-y-preparación-de-base-de-datos)
-   1. [Conectar/Importar Datos a Herramientas](#conectarimportar-datos-a-herramientas)
-   2. [Identificar y Manejar Valores Nulos](#identificar-y-manejar-valores-nulos)
-   3. [Identificar y Manejar Valores Duplicados](#identificar-y-manejar-valores-duplicados)
-   4. [Identificar y Manejar Datos Inconsistentes en Variables Categóricas](#identificar-y-manejar-datos-inconsistentes-en-variables-categóricas)
-   5. [Identificar y Manejar Datos Discrepantes en Variables Numéricas](#identificar-y-manejar-datos-discrepantes-en-variables-numéricas)
-   6. [Comprobar y Cambiar Tipo de Dato](#comprobar-y-cambiar-tipo-de-dato)
-   7. [Crear Nuevas Variables](#crear-nuevas-variables)
-   8. [Unir Tablas](#unir-tablas)
-   9. [Construir Tablas Auxiliares](#construir-tablas-auxiliares)
-3. [Análisis Exploratorio](#análisis-exploratorio)
-   1. [Agrupar Datos Según Variables Categóricas](#agrupar-datos-según-variables-categóricas)
-   2. [Visualizar las Variables Categóricas](#visualizar-las-variables-categóricas)
-   3. [Aplicar Medidas de Tendencia Central](#aplicar-medidas-de-tendencia-central)
-   4. [Visualizar Distribución Utilizando Histograma o Boxplot](#visualizar-distribución-utilizando-histograma-o-boxplot)
-   5. [Aplicar Medidas de Dispersión](#aplicar-medidas-de-dispersión)
-   6. [Calcular Cuartiles, Deciles o Percentiles](#calcular-cuartiles-deciles-o-percentiles)
-   7. [Calcular Correlación entre las Variables Numéricas](#calcular-correlación-entre-las-variables-numéricas)
-4. [Aplicar Técnica de Análisis](#aplicar-técnica-de-análisis)
-5. [Dashboard](#dashboard)
-6. [Presentación de Resultados](#presentación-de-resultados)
-7. [Conclusiones](#conclusiones)
-
-## Insumos
-...
-
-## Procesamiento y Preparación de Base de Datos
-### Conectar/Importar Datos a Herramientas
-...
-
-### Identificar y Manejar Valores Nulos
-...
-
-### Identificar y Manejar Valores Duplicados
-...
-
-### Identificar y Manejar Datos Inconsistentes en Variables Categóricas
-...
-
-### Identificar y Manejar Datos Discrepantes en Variables Numéricas
-...
-
-### Comprobar y Cambiar Tipo de Dato
-...
-
-### Crear Nuevas Variables
-...
-
-### Unir Tablas
-...
-
-### Construir Tablas Auxiliares
-...
-
-## Análisis Exploratorio
-### Agrupar Datos Según Variables Categóricas
-...
-
-### Visualizar las Variables Categóricas
-...
-
-### Aplicar Medidas de Tendencia Central
-...
-
-### Visualizar Distribución Utilizando Histograma o Boxplot
-...
-
-### Aplicar Medidas de Dispersión
-...
-
-### Calcular Cuartiles, Deciles o Percentiles
-...
-
-### Calcular Correlación entre las Variables Numéricas
-...
-
-## Aplicar Técnica de Análisis
-...
-
-## Dashboard
-...
-
-## Presentación de Resultados
-...
-
-## Conclusiones
-...
-
+1. [Insumos](1_Insumos.md)
+2. [Procesamiento y Preparación de Base de Datos](2_Procesamiento_Preparacion.md)
+   - [Conectar/Importar Datos a Herramientas](2_1_Conectar_Importar_Datos.md)
+   - [Identificar y Manejar Valores Nulos](2_2_Identificar_Manejar_Valores_Nulos.md)
+   - [Identificar y Manejar Valores Duplicados](2_3_Identificar_Manejar_Valores_Duplicados.md)
+   - [Identificar y Manejar Datos Inconsistentes en Variables Categóricas](2_4_Identificar_Manejar_Datos_Inconsistentes.md)
+   - [Identificar y Manejar Datos Discrepantes en Variables Numéricas](2_5_Identificar_Manejar_Datos_Discrepantes.md)
+   - [Comprobar y Cambiar Tipo de Dato](2_6_Comprobar_Cambiar_Tipo_Dato.md)
+   - [Crear Nuevas Variables](2_7_Crear_Nuevas_Variables.md)
+   - [Unir Tablas](2_8_Unir_Tablas.md)
+   - [Construir Tablas Auxiliares](2_9_Construir_Tablas_Auxiliares.md)
+3. [Análisis Exploratorio](3_Analisis_Exploratorio.md)
+   - [Agrupar Datos Según Variables Categóricas](3_1_Agrupar_Datos.md)
+   - [Visualizar las Variables Categóricas](3_2_Visualizar_Variables_Categoricas.md)
+   - [Aplicar Medidas de Tendencia Central](3_3_Aplicar_Medidas_Tendencia_Central.md)
+   - [Visualizar Distribución Utilizando Histograma o Boxplot](3_4_Visualizar_Distribucion.md)
+   - [Aplicar Medidas de Dispersión](3_5_Aplicar_Medidas_Dispersion.md)
+   - [Calcular Cuartiles, Deciles o Percentiles](3_6_Calcular_Cuartiles.md)
+   - [Calcular Correlación entre las Variables Numéricas](3_7_Calcular_Correlacion.md)
+4. [Aplicar Técnica de Análisis](4_Aplicar_Tecnica_Analisis.md)
+5. [Dashboard](5_Dashboard.md)
+6. [Presentación de Resultados](6_Presentacion_Resultados.md)
+7. [Conclusiones](7_Conclusiones.md)
