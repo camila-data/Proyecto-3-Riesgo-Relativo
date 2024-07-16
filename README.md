@@ -9,18 +9,21 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 
 # Proyecto 3: Riesgo Relativo
 
+# Proyecto 3: Riesgo Relativo
+
 ## Tabla de Contenidos
-1. [Insumos](1_Insumos.md)
+1. Insumos
 2. Procesamiento y Preparación de Base de Datos
    - [Conectar/Importar Datos a Herramientas](2_1_Conectar_Importar_Datos.md)
    - [Identificar y Manejar Valores Nulos](2_2_Identificar_Manejar_Valores_Nulos.md)
    - [Identificar y Manejar Valores Duplicados](2_3_Identificar_Manejar_Valores_Duplicados.md)
-   - [Identificar y Manejar Datos Inconsistentes en Variables Categóricas](2_4_Identificar_Manejar_Datos_Inconsistentes.md)
-   - [Identificar y Manejar Datos Discrepantes en Variables Numéricas](2_5_Identificar_Manejar_Datos_Discrepantes.md)
-   - [Comprobar y Cambiar Tipo de Dato](2_6_Comprobar_Cambiar_Tipo_Dato.md)
-   - [Crear Nuevas Variables](2_7_Crear_Nuevas_Variables.md)
-   - [Unir Tablas](2_8_Unir_Tablas.md)
-   - [Construir Tablas Auxiliares](2_9_Construir_Tablas_Auxiliares.md)
+   - [Identificar y Manejar Datos Fuera del Alcance del Análisis](2_4_Identificar_Manejar_Datos_Fuera_Alcance.md)
+   - [Identificar y Manejar Datos Inconsistentes en Variables Categóricas](2_5_Identificar_Manejar_Datos_Inconsistentes.md)
+   - [Identificar y Manejar Datos Discrepantes en Variables Numéricas](2_6_Identificar_Manejar_Datos_Discrepantes.md)
+   - [Comprobar y Cambiar Tipo de Dato](2_7_Comprobar_Cambiar_Tipo_Dato.md)
+   - [Crear Nuevas Variables](2_8_Crear_Nuevas_Variables.md)
+   - [Unir Tablas](2_9_Unir_Tablas.md)
+   - [Construir Tablas Auxiliares](2_10_Construir_Tablas_Auxiliares.md)
 3. Análisis Exploratorio
    - [Agrupar Datos Según Variables Categóricas](3_1_Agrupar_Datos.md)
    - [Visualizar las Variables Categóricas](3_2_Visualizar_Variables_Categoricas.md)
@@ -33,5 +36,4 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 5. Dashboard
 6. Presentación de Resultados
 7. Conclusiones
-
 
