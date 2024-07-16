@@ -1,13 +1,17 @@
+# Análisis de Correlaciones en Datos de Préstamos
+
 ## Identificar y Manejar Datos Fuera del Alcance del Análisis
 
 ### Resultados de las Correlaciones
 
-- **Correlación entre more_90_days_overdue y number_times_delayed_payment_loan_30_59_days:** 0.9829
-- **Correlación entre more_90_days_overdue y using_lines_not_secured_personal_assets:** -0.0014
-- **Correlación entre more_90_days_overdue y debt_ratio:** -0.0082
-- **Correlación entre more_90_days_overdue y number_times_delayed_payment_loan_60_89_days:** 0.9922
-- **Correlación entre number_times_delayed_payment_loan_30_59_days y debt_ratio:** -0.0052
-- **Correlación entre number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days:** 0.9866
+| Variables                                                                  | Correlación    |
+|----------------------------------------------------------------------------|----------------|
+| more_90_days_overdue y number_times_delayed_payment_loan_30_59_days         | 0.9829         |
+| more_90_days_overdue y using_lines_not_secured_personal_assets              | -0.0014        |
+| more_90_days_overdue y debt_ratio                                           | -0.0082        |
+| more_90_days_overdue y number_times_delayed_payment_loan_60_89_days         | 0.9922         |
+| number_times_delayed_payment_loan_30_59_days y debt_ratio                   | -0.0052        |
+| number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days | 0.9866         |
 
 ### Interpretación
 
@@ -34,6 +38,7 @@
   - Estas variables ayudan a identificar patrones de comportamiento de pago menos graves pero aún importantes.
   - Podrían ser útiles para segmentar clientes en diferentes niveles de riesgo y ajustar las políticas de crédito en consecuencia.
 
+### Conclusión
 Aunque hay una alta correlación entre estas variables, es importante retenerlas todas en el análisis de crédito debido a la naturaleza crítica de la información que proporcionan sobre los retrasos en los pagos. Cada variable aporta un aspecto diferente del comportamiento de pago del cliente y puede ser vital para construir un modelo predictivo robusto.
 
 ### Consultas SQL para BigQuery
