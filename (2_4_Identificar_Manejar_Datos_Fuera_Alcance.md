@@ -17,8 +17,6 @@
 
 #### Correlación muy alta:
 - **more_90_days_overdue y number_times_delayed_payment_loan_30_59_days (0.9829):**
-  - Estas correlaciones indican una relación muy fuerte entre estas variables. Esto sugiere que estas variables están capturando información similar sobre los retrasos en el pago de los préstamos. Podrías considerar eliminar una o más de estas variables para evitar redundancias en tu análisis.
-  
 - **more_90_days_overdue y number_times_delayed_payment_loan_60_89_days (0.9922)**
 - **number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days (0.9866)**
 
