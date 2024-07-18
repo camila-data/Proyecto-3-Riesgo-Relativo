@@ -1,5 +1,3 @@
-# Análisis de Correlaciones en Datos de Préstamos
-
 ## Identificar y Manejar Datos Fuera del Alcance del Análisis
 
 ### Resultados de las Correlaciones
