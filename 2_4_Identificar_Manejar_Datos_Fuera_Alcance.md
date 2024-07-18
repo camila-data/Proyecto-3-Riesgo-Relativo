@@ -27,7 +27,7 @@
 - **more_90_days_overdue y debt_ratio (-0.0082)**
 - **number_times_delayed_payment_loan_30_59_days y debt_ratio (-0.0052)**
 
-#### Justificación para Retener Todas las Variables
+#### En este se deben retener Todas las Variables
 - **more_90_days_overdue:**
   - Esta variable indica si un cliente ha estado más de 90 días vencido, lo cual es crítico para identificar posibles fondos perdidos.
   - La retención de esta variable ayuda a entender casos graves de incumplimiento.
@@ -36,14 +36,3 @@
   - Estas variables ayudan a identificar patrones de comportamiento de pago menos graves pero aún importantes.
   - Podrían ser útiles para segmentar clientes en diferentes niveles de riesgo y ajustar las políticas de crédito en consecuencia.
 
-### Conclusión
-Aunque hay una alta correlación entre estas variables, es importante retenerlas todas en el análisis de crédito debido a la naturaleza crítica de la información que proporcionan sobre los retrasos en los pagos. Cada variable aporta un aspecto diferente del comportamiento de pago del cliente y puede ser vital para construir un modelo predictivo robusto.
-
-### Consultas SQL para BigQuery
-
-#### Correlación entre more_90_days_overdue y number_times_delayed_payment_loan_30_59_days:
-```sql
-SELECT 
-  CORR(more_90_days_overdue, number_times_delayed_payment_loan_30_59_days) AS correlation
-FROM 
-  `laboratoria-426416.riesgo_relativo.loans_detail`
