@@ -35,7 +35,7 @@ SELECT
 FROM
     `laboratoria-426416.riesgo_relativo.user_info`;
 
-## Consulta en BigQuery para sustituir Valores Nulos
+### Consulta en BigQuery para sustituir Valores Nulos
 
 CREATE OR REPLACE VIEW `laboratoria-426416.riesgo_relativo.user_info_updated` AS
 -- Calcular el promedio de last_month_salary, excluyendo los valores nulos
