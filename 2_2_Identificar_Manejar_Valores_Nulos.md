@@ -20,7 +20,7 @@ La finalidad de esta consulta es limpiar los datos en la tabla `laboratoria-4264
 - `number_dependents`: se sustituirán los valores nulos con el valor 0.
 
 
-### Consultas de SQL Utilizadas 
+## Consultas de SQL Utilizadas 
 
 Para contar los valores nulos en cada campo de la tabla `user_info`, se utilizó la siguiente consulta en BigQuery:
 
@@ -37,8 +37,6 @@ FROM
 
 ## Consulta en BigQuery para sustituir Valores Nulos
 
-
-```sql
 CREATE OR REPLACE VIEW `laboratoria-426416.riesgo_relativo.user_info_updated` AS
 -- Calcular el promedio de last_month_salary, excluyendo los valores nulos
 WITH salary_avg AS (
