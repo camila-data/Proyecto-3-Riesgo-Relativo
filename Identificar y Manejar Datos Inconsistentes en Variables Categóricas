@@ -17,13 +17,4 @@ ORDER BY
 
 
 
-| Fila | loan_type  | count   |
-|------|------------|---------|
-| 1    | other      | 268770  |
-| 2    | real estate| 36560   |
-| 3    | REAL ESTATE| 1       |
-| 4    | Real Estate| 1       |
-| 5    | OTHER      | 1       |
-| 6    | Other      | 1       |
-| 7    | others     | 1       |
 
