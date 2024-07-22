@@ -29,8 +29,26 @@
 - **more_90_days_overdue:**
   - Esta variable indica si un cliente ha estado más de 90 días vencido, lo cual es crítico para identificar posibles fondos perdidos.
   - La retención de esta variable ayuda a entender casos graves de incumplimiento.
-  
-- **number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days:**
-  - Estas variables ayudan a identificar patrones de comportamiento de pago menos graves pero aún importantes.
-  - Podrían ser útiles para segmentar clientes en diferentes niveles de riesgo y ajustar las políticas de crédito en consecuencia.
+ 
 
+### Eliminación de la Columna `sex` 
+
+Eliminar la columna `sex` de la tabla `user_info_updated` ya que el sexo de los clientes no es relevante para este análisis. 
+
+**Proceso:**
+1. **Eliminación de la Columna `sex`**:
+    - Se utiliza la instrucción `CREATE OR REPLACE TABLE` para crear una nueva tabla sin la columna `sex`.
+
+
+### Consulta SQL Utilizada
+
+**Eliminación de la Columna `sex`**:
+```sql
+CREATE OR REPLACE TABLE `laboratoria-426416.riesgo_relativo.user_info_updated_no_sex` AS
+SELECT
+  user_id,
+  age,
+  last_month_salary,
+  number_dependents
+FROM
+  `laboratoria-426416.riesgo_relativo.user_info_updated`;
