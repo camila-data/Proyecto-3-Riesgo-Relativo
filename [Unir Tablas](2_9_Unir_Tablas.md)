@@ -1,0 +1,62 @@
+# Unión de Tablas en BigQuery
+
+Unir las tablas `loans_detail`, `loan_summary`, `default_update`, y `user_info_updated` en una nueva tabla llamada `tabla_unificada` utilizando la columna `user_id` como clave de unión.
+
+### Columnas de Cada Tabla:
+
+- **loans_detail**:
+  - `user_id`
+  - `more_90_days_overdue`
+  - `using_lines_not_secured_personal_assets`
+  - `number_times_delayed_payment_loan_30_59_days`
+  - `debt_ratio`
+  - `number_times_delayed_payment_loan_60_89_days`
+
+- **loan_summary**:
+  - `user_id`
+  - `prestamo_real_estate`
+  - `prestamo_others`
+  - `total_prestamos`
+
+- **default_update**:
+  - `user_id`
+  - `default_flag`
+
+- **user_info_updated**:
+  - `user_id`
+  - `age`
+  - `last_month_salary`
+  - `number_dependents`
+
+### Consulta SQL:
+
+```sql
+CREATE OR REPLACE TABLE laboratoria-426416.riesgo_relativo.tabla_unificada AS
+SELECT
+  u.user_id,
+  u.age,
+  u.last_month_salary,
+  u.number_dependents,
+  ls.prestamo_real_estate,
+  ls.prestamo_others,
+  ls.total_prestamos,
+  ld.more_90_days_overdue,
+  ld.using_lines_not_secured_personal_assets,
+  ld.number_times_delayed_payment_loan_30_59_days,
+  ld.debt_ratio,
+  ld.number_times_delayed_payment_loan_60_89_days,
+  d.default_flag
+FROM
+  laboratoria-426416.riesgo_relativo.user_info_updated u
+INNER JOIN
+  laboratoria-426416.riesgo_relativo.loan_summary ls
+ON
+  u.user_id = ls.user_id
+INNER JOIN
+  laboratoria-426416.riesgo_relativo.loans_detail ld
+ON
+  u.user_id = ld.user_id
+INNER JOIN
+  laboratoria-426416.riesgo_relativo.default_update d
+ON
+  u.user_id = d.user_id;
