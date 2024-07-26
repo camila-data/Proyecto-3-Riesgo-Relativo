@@ -9,7 +9,9 @@
 | more_90_days_overdue y debt_ratio                                           | -0.0082        |
 | more_90_days_overdue y number_times_delayed_payment_loan_60_89_days         | 0.9922         |
 | number_times_delayed_payment_loan_30_59_days y debt_ratio                   | -0.0052        |
-| number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days | 0.9866         |
+| number_times_delayed_payment_loan_30_59_days y number_times_delayed_payment_loan_60_89_days | 0.9866    
+
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/0b7c2e57-ecbb-47ad-a414-899c79ec4f98">
 
 ### Interpretación
 
