@@ -35,6 +35,18 @@ Este boxplot muestra la distribución de los valores atípicos (outliers) en la 
 
 **Observaciones:**
 - Los outliers se encuentran en un rango amplio, desde justo por encima del límite de 15,650.0 hasta valores mucho más altos.
+  
+  ## Boxplot de Outliers en Edad
+
+Este boxplot muestra la distribución de los valores atípicos (outliers) en la columna de `edad`.
+
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/cbd49d78-66a3-4509-adef-71730fbc5a2d">
+
+
+
+**Observaciones:**
+- La mayoría de los datos de edad se encuentran entre aproximadamente 20 y 80 años.
+- Los outliers representan edades que van desde los 80 hasta los 109 años.
 
   
 # Cálculo de Outliers utilizando Google Colab
