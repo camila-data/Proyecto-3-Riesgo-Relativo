@@ -30,7 +30,7 @@
 
 Este boxplot muestra la distribución de los valores atípicos (outliers) en la columna de last month salary.
 
-<img width="603" alt="image" src="https://github.com/user-attachments/assets/408e1769-8b06-4b8a-88c8-e8ab9971ebb3">
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/03c2b291-c696-4a8b-ab4c-b78f8e21853e">
 
 
 **Observaciones:**
