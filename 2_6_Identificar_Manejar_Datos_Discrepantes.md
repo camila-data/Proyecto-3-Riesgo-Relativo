@@ -23,8 +23,21 @@
   - Porcentaje de outliers: 3.25%
 - **number_dependents**: 3230 outliers
   - Porcentaje de outliers: 8.97%
-# Cálculo de Outliers utilizando Google Colab
 
+
+# Detalles de Outliers en los Datos
+## Boxplot de Outliers en Último Salario del Mes
+
+Este boxplot muestra la distribución de los valores atípicos (outliers) en la columna de last month salary.
+
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/408e1769-8b06-4b8a-88c8-e8ab9971ebb3">
+
+
+**Observaciones:**
+- Los outliers se encuentran en un rango amplio, desde justo por encima del límite de 15,650.0 hasta valores mucho más altos.
+
+  
+# Cálculo de Outliers utilizando Google Colab
 Para calcular los outliers en las diferentes columnas de tus archivos CSV, se utilizó este código en Google Colab  :
 
 ```python
@@ -37,4 +50,5 @@ def calcular_outliers(df, columna):
     upper_bound = Q3 + 1.5 * IQR
     outliers = df[(df[columna] < lower_bound) | (df[columna] > upper_bound)]
     return outliers
+
 
