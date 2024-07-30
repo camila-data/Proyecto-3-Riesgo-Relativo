@@ -23,7 +23,8 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
    - [Comprobar y Cambiar Tipo de Dato](2_7_Comprobar_Cambiar_Tipo_Dato.md)
    - [Crear Nuevas Variables](2_8_Crear_Nuevas_Variables.md)
    - [Unir Tablas](2_9_Unir_Tablas.md)
-   - [Construir Tablas Auxiliares](2_10_Construir_Tablas_Auxiliares.md)
+   - [Identificar y Manejar Valores Nulos nueva tabla](2_9_nulos_Tabla.md)
+   - [Construir Tablas Auxiliares](2_11_Construir_Tablas_Auxiliares.md)
 3. Análisis Exploratorio
    - [Agrupar Datos Según Variables Categóricas](3_1_Agrupar_Datos.md)
    - [Visualizar las Variables Categóricas](3_2_Visualizar_Variables_Categoricas.md)
