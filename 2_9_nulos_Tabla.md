@@ -11,7 +11,7 @@
 | debt_ratio                                       | 0     |
 | number_times_delayed_payment_loan_60_89_days     | 0     |
 | any_delay                                        | 1     |
-| prestamo_real_estate                             | 0     |
+| prestamo_real_estate                             | 425   |
 | prestamo_others                                  | 425   |
 | total_prestamos                                  | 425   |
 | age                                              | 760   |
