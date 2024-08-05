@@ -19,10 +19,13 @@
 
 - **age**: 10 outliers
   - Porcentaje de outliers: 0.03%
+ - manejo de estos outliers: eliminar los clientes mayores a 96 años.
 - **last_month_salary**: 1170 outliers
   - Porcentaje de outliers: 3.25%
+  - manejo de estos outliers: imputar por el promedio los valores más altos.
 - **number_dependents**: 3230 outliers
   - Porcentaje de outliers: 8.97%
+ 
 
 
 # Detalles de Outliers en los Datos
