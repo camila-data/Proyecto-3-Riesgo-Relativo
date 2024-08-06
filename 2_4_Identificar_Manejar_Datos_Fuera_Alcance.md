@@ -40,6 +40,9 @@ Eliminar la columna `sex` de la tabla `user_info_updated` ya que el sexo de los 
 **Proceso:**
 1. **Eliminación de la Columna `sex`**:
     - Se utiliza la instrucción `CREATE OR REPLACE TABLE` para crear una nueva tabla sin la columna `sex`.
+  
+*** matriz de correlación de todas las variables: 
+![output](https://github.com/user-attachments/assets/f098d66c-dbe9-4bb3-9352-eeb330386b86)
 
 
 ### Consulta SQL Utilizada
