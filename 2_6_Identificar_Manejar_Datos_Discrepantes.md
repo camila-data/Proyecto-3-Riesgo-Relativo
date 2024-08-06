@@ -37,7 +37,9 @@ Este boxplot muestra la distribución de los valores atípicos (outliers) en la 
 
 
 **Observaciones:**
-- Los outliers se encuentran en un rango amplio, desde justo por encima del límite de 15,650.0 hasta valores mucho más altos.
+- Los outliers se encuentran en un rango amplio, desde justo por encima del límite de 15,650.0 hasta valores mucho más altos. Asi que el manejo fue imputar los datos por el promedio y la distribución se aprecia así:
+- <img width="548" alt="image" src="https://github.com/user-attachments/assets/9894ec9b-6e6f-4df2-a87b-7e71d4924a75">
+
   
   ## Boxplot de Outliers en Edad
 
