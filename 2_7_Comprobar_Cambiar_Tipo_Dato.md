@@ -1,14 +1,16 @@
-## Cambiar Tipo de Dato 
+# Cambiar Tipo de Dato
 
-Cambio del tipo de dato de la columnas creadas (que se detallan en el siguiente punto). 
+Cambio del tipo de dato de las columnas creadas (que se detallan en el siguiente punto).
 
+## 1. Creación de una tabla con el esquema deseado
 
-### 1. Creación de una tabla con el esquema deseado
+Convertir columnas específicas de tipo FLOAT a INT64 de la tabla. Las columnas convertidas son `prestamo_real_estate`, `prestamo_others` y `total_prestamos`.
 
-Convertir columnas específicas de tipo FLOAT a INT64 de la tabla. Las columnas convertidas son prestamo_real_estate, prestamo_others y total_prestamos.
+### Consulta SQL
 
+```sql
 -- Crear una nueva tabla con las columnas convertidas a enteros
-CREATE OR REPLACE TABLE `laboratoria-426416.riesgo_relativo.tabla_matriz` AS
+CREATE OR REPLACE TABLE `laboratoria-426416.riesgo_relativo.tabla_matriz_con_enteros` AS
 SELECT
   CAST(prestamo_real_estate AS INT64) AS prestamo_real_estate,
   CAST(prestamo_others AS INT64) AS prestamo_others,
