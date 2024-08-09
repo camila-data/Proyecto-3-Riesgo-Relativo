@@ -34,7 +34,7 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
    - [Calcular Cuartiles, Deciles o Percentiles](3_6_Calcular_Cuartiles.md)
    - [Calcular Correlación entre las Variables Numéricas](3_7_Calcular_Correlacion.md)
 4. Aplicar Técnica de Análisis
-    - [riesgo relativo](3_8_Calcular_riesgo_relativo.md)
+    - [riesgo relativo](3_8_Calcular_riesgo_relativo.md to 3_8_Validación_de_Hipótesis_Riesgo_de_Impago_según_la_Edad.md)
 6. Dashboard
 7. Presentación de Resultados
 8. Conclusiones
