@@ -29,6 +29,9 @@ Para validar esta hipótesis, se realizaron cálculos de la tasa de impago (defa
 ## Conclusión:
 Los resultados obtenidos en BigQuery validan la hipótesis de que los más jóvenes tienen un mayor riesgo de impago. La tasa de impago disminuye significativamente a medida que aumenta la edad, y el riesgo relativo es considerablemente menor en los grupos de mayor edad.
 
+## SQL:
+La siguiente consulta fue utilizada para el cálculo del riesgo relativo. 
+
 ```sql
 WITH Cuartiles AS (
     SELECT 
