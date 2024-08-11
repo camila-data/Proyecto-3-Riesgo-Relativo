@@ -11,7 +11,7 @@ Para validar esta hipótesis, se realizaron cálculos de la tasa de impago (defa
 
 | Cuartil de Edad | Rango de Edad | Tasa de Impago (%) | Riesgo Relativo |
 |-----------------|---------------|--------------------|-----------------|
-| **Q1**          | 21 a 41 años  | 3.46%              | 1.00            |
+| **Q1**          | 21 a 41 años  |                    | 2.46            |
 | **Q2**          | 41 a 52 años  | 2.18%              | 0.63            |
 | **Q3**          | 52 a 62 años  | 1.39%              | 0.40            |
 | **Q4**          | 62 a 83 años  | 0.57%              | 0.16            |
