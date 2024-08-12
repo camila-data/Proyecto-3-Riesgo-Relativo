@@ -1,0 +1,76 @@
+# Análisis de Riesgo de Impago en Función de Retrasos de Pago de Más de 90 Días
+
+## Objetivo:
+Validar la hipótesis de que "Las personas que han retrasado sus pagos por más de 90 días tienen mayor riesgo de ser malos pagadores".
+
+## Metodología:
+
+### Segmentación de los Datos:
+- Los datos fueron divididos en dos grupos:
+  - **Grupo Expuesto:** Clientes que han tenido al menos un retraso de 90 días o más.
+  - **Grupo No Expuesto:** Clientes que no han tenido ningún retraso de 90 días o más.
+- Se calculó la tasa de impago (default_flag) para cada grupo.
+
+### Cálculo del Riesgo Relativo:
+- El riesgo relativo se calculó comparando la tasa de impago en el grupo expuesto con la del grupo no expuesto, utilizando el grupo no expuesto como referencia.
+
+## Resultados:
+| Grupo Expuesto                                             | Tasa de Impago (%) | Riesgo Expuesto | Riesgo No Expuesto | Riesgo Relativo |
+|------------------------------------------------------------|-------------------|-----------------|-------------------|----------------|
+| Grupo con al menos un retraso de 90 días o más             | 32.22%            | 0.3222          | 0.0015            | 195.93         |
+| Grupo sin retrasos de 90 días o más                        | 0.15%             | 0.0015          | 0.3222            | 0.005          |
+
+## Conclusión General:
+La hipótesis "Las personas que han retrasado sus pagos por más de 90 días tienen mayor riesgo de ser malos pagadores" se valida de manera significativa. Los resultados muestran que los clientes que han tenido al menos un retraso de 90 días o más tienen un riesgo relativo de impago **195.93 veces mayor** en comparación con aquellos que no han tenido retrasos.
+
+Este hallazgo está respaldado por:
+- Una tasa de impago mucho mayor en el grupo expuesto.
+- Un riesgo relativo extremadamente alto para el grupo con retrasos de 90 días o más.
+
+Los resultados fueron obtenidos y verificados en BigQuery utilizando la siguiente consulta.
+
+## SQL
+```sql
+WITH 
+-- Calcular la tasa de impago para el grupo con al menos un retraso de 90 días o más
+grupo_expuesto AS (
+  SELECT 
+    COUNT(*) AS total_expuesto,
+    SUM(CAST(default_flag AS INT64)) AS impagos_expuestos,
+    AVG(CAST(default_flag AS FLOAT64)) AS tasa_expuestos
+  FROM 
+    `laboratoria-426416.riesgo_relativo.tabla_real`
+  WHERE 
+    more_90_days_overdue >= 1
+),
+
+-- Calcular la tasa de impago para el grupo sin retrasos de 90 días o más
+grupo_no_expuesto AS (
+  SELECT 
+    COUNT(*) AS total_no_expuesto,
+    SUM(CAST(default_flag AS INT64)) AS impagos_no_expuestos,
+    AVG(CAST(default_flag AS FLOAT64)) AS tasa_no_expuestos
+  FROM 
+    `laboratoria-426416.riesgo_relativo.tabla_real`
+  WHERE 
+    more_90_days_overdue = 0
+)
+
+-- Calcular el riesgo relativo
+SELECT 
+  'Grupo con al menos un retraso de 90 días o más' AS grupo_expuesto,
+  tasa_expuestos AS tasa_impago_expuestos,
+  tasa_no_expuestos AS tasa_impago_no_expuestos,
+  tasa_expuestos / tasa_no_expuestos AS riesgo_relativo
+FROM 
+  grupo_expuesto, grupo_no_expuesto
+
+UNION ALL
+
+SELECT 
+  'Grupo sin retrasos de 90 días o más' AS grupo_expuesto,
+  tasa_no_expuestos AS tasa_impago_expuestos,
+  tasa_expuestos AS tasa_impago_no_expuestos,
+  tasa_no_expuestos / tasa_expuestos AS riesgo_relativo
+FROM 
+  grupo_expuesto, grupo_no_expuesto;
