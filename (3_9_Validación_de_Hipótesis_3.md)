@@ -9,16 +9,16 @@ Validar la hipótesis de que "Las personas que han retrasado sus pagos por más 
 - Los datos fueron divididos en dos grupos:
   - **Grupo Expuesto:** Clientes que han tenido al menos un retraso de 90 días o más.
   - **Grupo No Expuesto:** Clientes que no han tenido ningún retraso de 90 días o más.
-- Se calculó la tasa de impago (default_flag) para cada grupo.
+- Se calculó la tasa de impago (`default_flag`) para cada grupo.
 
 ### Cálculo del Riesgo Relativo:
 - El riesgo relativo se calculó comparando la tasa de impago en el grupo expuesto con la del grupo no expuesto, utilizando el grupo no expuesto como referencia.
 
 ## Resultados:
-| Grupo Expuesto                                             | Tasa de Impago (%) | Riesgo Expuesto | Riesgo No Expuesto | Riesgo Relativo |
-|------------------------------------------------------------|-------------------|-----------------|-------------------|----------------|
-| Grupo con al menos un retraso de 90 días o más             | 32.22%            | 0.3222          | 0.0015            | 195.93         |
-| Grupo sin retrasos de 90 días o más                        | 0.15%             | 0.0015          | 0.3222            | 0.005          |
+| Grupo Expuesto                                     | Tasa de Impago (%) | Riesgo Expuesto | Riesgo No Expuesto | Riesgo Relativo |
+|----------------------------------------------------|--------------------|-----------------|-------------------|-----------------|
+| Grupo con al menos un retraso de 90 días o más     | 32.22%             | 0.3222          | 0.0015            | 195.93          |
+| Grupo sin retrasos de 90 días o más                | 0.15%              | 0.0015          | 0.3222            | 0.005           |
 
 ## Conclusión General:
 La hipótesis "Las personas que han retrasado sus pagos por más de 90 días tienen mayor riesgo de ser malos pagadores" se valida de manera significativa. Los resultados muestran que los clientes que han tenido al menos un retraso de 90 días o más tienen un riesgo relativo de impago **195.93 veces mayor** en comparación con aquellos que no han tenido retrasos.
