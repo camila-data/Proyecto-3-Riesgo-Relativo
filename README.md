@@ -36,7 +36,7 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 4. Aplicar Técnica de Análisis
     - [Riesgo de impago según la edad](3_8_Validación_de_Hipótesis_Riesgo_de_Impago_según_la_Edad.md)
     - [Riesgo de impago según la cantidad de préstamos](3_9_Validación_de_Hipótesis_Riesgo_de_Impago_según_total_préstamos.md)
-    - [Retrasar pagos por más de 90 días tienen mayor riesgo de ser malos pagadores](3_9_Validación_de_Hipótesis_3.md)
+    - [Retrasar pagos por más de 90 días tienen mayor riesgo de ser malos pagadores]((3_9_Validación_de_Hipótesis_3.md))
 6. Dashboard
 7. Presentación de Resultados
 8. Conclusiones
