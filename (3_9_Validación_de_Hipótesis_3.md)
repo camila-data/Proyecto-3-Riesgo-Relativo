@@ -15,6 +15,7 @@ Validar la hipótesis de que "Las personas que han retrasado sus pagos por más 
 - El riesgo relativo se calculó comparando la tasa de impago en el grupo expuesto con la del grupo no expuesto, utilizando el grupo no expuesto como referencia.
 
 ## Resultados:
+
 | Grupo Expuesto                                     | Tasa de Impago (%) | Riesgo Expuesto | Riesgo No Expuesto | Riesgo Relativo |
 |----------------------------------------------------|--------------------|-----------------|-------------------|-----------------|
 | Grupo con al menos un retraso de 90 días o más     | 32.22%             | 0.3222          | 0.0015            | 195.93          |
@@ -74,3 +75,4 @@ SELECT
   tasa_no_expuestos / tasa_expuestos AS riesgo_relativo
 FROM 
   grupo_expuesto, grupo_no_expuesto;
+
