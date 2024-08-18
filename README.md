@@ -38,6 +38,7 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
     - [Riesgo de impago según la cantidad de préstamos](3_9_Validación_de_Hipótesis_Riesgo_de_Impago_según_total_préstamos.md)
     - [Retrasar pagos por más de 90 días tienen mayor riesgo de ser malos pagadores]((3_9_Validación_de_Hipótesis_3.md))
 6. Dashboard
-7. Presentación de Resultados
-8. Conclusiones
+   -[Dashboard]((4_1_Dashboard_3.md))
+8. Presentación de Resultados
+9. Conclusiones
 
