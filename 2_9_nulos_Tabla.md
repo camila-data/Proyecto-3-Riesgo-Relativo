@@ -1,6 +1,6 @@
 # Identificar valores nulos en la nueva tabla 
 
-- Se encontraron los siguientes valores nulos en la tabla `tabla_matriz`:
+- Se encontraron los siguientes valores nulos en la tabla:
 
 | Columna                                          | Nulos |
 |--------------------------------------------------|-------|
