@@ -54,6 +54,15 @@ Este boxplot muestra la distribución de los valores atípicos (outliers) en la 
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/3b0c564c-267a-4405-8f36-6e49bec13724">
 <img width="548" alt="image" src="https://github.com/user-attachments/assets/495d9f0e-c4a7-462f-b5cf-16932f45cc94">
 
+## Boxplot de Outliers en number_dependents
+
+![output (5)](https://github.com/user-attachments/assets/45cb86e6-427a-47a6-a224-da2a40deae91)
+![output (4)](https://github.com/user-attachments/assets/415bd9a2-7119-42a1-8500-4ae9f1f99e30)
+
+**Observaciones:**
+- El histograma muestra cómo se distribuye el número de dependientes entre los clientes. La mayoría de los clientes tiene un número bajo de dependientes, con una concentración notable en valores cercanos a 0, 1 y 2.
+- Sin embargo, hay algunos valores más altos que, aunque son menos frecuentes, son considerados outliers.
+
   
 # Cálculo de Outliers utilizando Google Colab
 Para calcular los outliers en las diferentes columnas de tus archivos CSV, se utilizó este código en Google Colab  :
@@ -69,4 +78,26 @@ def calcular_outliers(df, columna):
     outliers = df[(df[columna] < lower_bound) | (df[columna] > upper_bound)]
     return outliers
 
+--  manejo more-90_days reemplaza valores mayores a 90 por un 2 en base a que el promedio de los valores sin contar los 0 es 1,7 aprox y se redondea 
+CREATE OR REPLACE TABLE `laboratoria-426416.riesgo_relativo.tabla_real` AS
+SELECT 
+    user_id,
+    CASE 
+        WHEN more_90_days_overdue > 20 THEN 2 
+        ELSE more_90_days_overdue 
+    END AS more_90_days_overdue,
+    using_lines_not_secured_personal_assets,
+    number_times_delayed_payment_loan_30_59_days,
+    debt_ratio,
+    number_times_delayed_payment_loan_60_89_days,
+    any_delay,
+    prestamo_real_estate,
+    prestamo_others,
+    total_prestamos,
+    age,
+    last_month_salary,
+    number_dependents,
+    default_flag
+FROM 
+    `laboratoria-426416.riesgo_relativo.tabla_real`;
 
