@@ -25,7 +25,7 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
    - [Identificar y Manejar Valores Nulos nueva tabla](2_9_nulos_Tabla.md)
  
 3. Análisis Exploratorio
-   - [Agrupar Datos Según Variables Categóricas](3_1_Agrupar_Datos.md)
+
    - [Visualizar las Variables Categóricas](3_2_Visualizar_Variables_Categoricas.md)
    - [Aplicar Medidas de Tendencia Central](3_3_Aplicar_Medidas_Tendencia_Central.md)
    - [Visualizar Distribución Utilizando Histograma o Boxplot](3_4_Visualizar_Distribucion.md)
