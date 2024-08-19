@@ -13,7 +13,7 @@ No tiene valores nulos.
 - **last_month_salary**: 7,199 valores nulos.
 - **number_dependents**: 943 valores nulos.
 
-# Manejo de duplicados en BigQuery
+# Manejo de nulos en BigQuery
 
 La finalidad de esta consulta es limpiar los datos en la tabla `laboratoria-426416.riesgo_relativo.user_info` sustituyendo los valores nulos en dos columnas específicas:
 - `last_month_salary`: se sustituirán los valores nulos con el promedio de los salarios existentes.
