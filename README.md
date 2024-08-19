@@ -14,7 +14,6 @@ Para abordar este desafío, proponemos una solución innovadora: automatizar el 
 ## Tabla de Contenidos
 1. Insumos
 2. Procesamiento y Preparación de Base de Datos
-   - [Conectar/Importar Datos a Herramientas](2_1_Conectar_Importar_Datos.md)
    - [Identificar y Manejar Valores Nulos](2_2_Identificar_Manejar_Valores_Nulos.md)
    - [Identificar y Manejar Valores Duplicados](2_3_Identificar_Manejar_Valores_Duplicados.md)
    - [Identificar y Manejar Datos Fuera del Alcance del Análisis](2_4_Identificar_Manejar_Datos_Fuera_Alcance.md)
