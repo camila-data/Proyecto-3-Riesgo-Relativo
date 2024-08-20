@@ -1,0 +1,32 @@
+# Conclusiones:
+
+1. **Validación de Hipótesis:**
+   - **Clientes Jóvenes:** Se validó que los clientes jóvenes (21-41 años) tienen un mayor riesgo de impago, con un riesgo relativo significativamente alto.
+   - **Préstamos Activos:** La hipótesis de que un mayor número de préstamos activos incrementa el riesgo de impago fue refutada; en realidad, los clientes con más préstamos son mejores pagadores.
+   - **Retrasos de Pago:** La hipótesis sobre los retrasos de más de 90 días fue confirmada, mostrando que los clientes con retrasos significativos tienen un riesgo extremadamente alto de ser malos pagadores.
+
+2. **Eficacia del Score Crediticio:**
+   - El modelo de score crediticio demostró ser eficaz en la clasificación de clientes en "buen pagador" y "mal pagador", priorizando la identificación precisa de riesgos.
+   - El modelo alcanzó una alta sensibilidad (92.8%), lo que garantiza la identificación precisa de los clientes con mayor riesgo de incumplimiento.
+
+3. **Impacto en el Proceso de Crédito:**
+   - La implementación del score crediticio automatizó y aceleró la evaluación de solicitudes de crédito, mejorando la eficiencia operativa y reduciendo la carga de trabajo manual.
+
+### Recomendaciones:
+
+1. **Automatización del Proceso de Evaluación:**
+   - **Integración del Score:** Incorporar el modelo de score crediticio en el proceso de evaluación de créditos para mejorar la rapidez y precisión en la toma de decisiones.
+   - **Reducción del Tiempo de Procesamiento:** Utilizar la automatización para reducir significativamente los tiempos de procesamiento de solicitudes de crédito.
+
+2. **Integración de la Métrica de Pagos Atrasados:**
+   - **Fortalecimiento del Modelo:** Integrar la métrica de pagos atrasados como un indicador clave dentro del score crediticio, dado su fuerte poder predictivo.
+   - **Monitoreo Continuo:** Establecer un sistema de actualización regular de esta métrica para reflejar cambios en el comportamiento del cliente.
+
+3. **Optimización y Adaptación del Modelo:**
+   - **Ajuste del Umbral:** Realizar pruebas adicionales para optimizar el umbral de clasificación y equilibrar sensibilidad y especificidad.
+   - **Nuevas Variables:** Considerar la inclusión de nuevas variables predictivas, como historial de empleo, para mejorar la precisión del modelo.
+   - **Análisis Predictivo:** Implementar análisis predictivos para anticipar riesgos en un entorno de tasas de interés bajas.
+
+4. **Capacitación y Evaluación Continua:**
+   - **Capacitación del Equipo:** Asegurar que el equipo esté bien capacitado en el uso del modelo automatizado y en la interpretación de sus resultados.
+   - **Evaluación del Sistema:** Realizar evaluaciones continuas del desempeño del sistema para identificar mejoras y adaptaciones necesarias.
